@@ -1,0 +1,30 @@
+@model KullaniciSifre
+
+<div class="display-6">
+    Apply
+</div>
+
+<form method="post" asp-action="Apply">
+
+    <div class="form-group my-2"> <!-- m = Margin(dış boşluk) y = y ekseni -->
+        <label asp-for="Ad"></label>
+        <input asp-for="Ad" class="form-control" />
+    </div>
+
+    <div class="form-group my-2"> <!-- m = Margin(dış boşluk) y = y ekseni -->
+        <label asp-for="Soyad"></label>
+        <input asp-for="Soyad" class="form-control" />
+    </div>
+
+    <div class="form-group my-2"> <!-- m = Margin(dış boşluk) y = y ekseni -->
+        <label asp-for="Sifre"></label>
+        <input asp-for="Sifre" class="form-control" />
+    </div>
+
+    <div>
+        <button class="btn btn-primary" type="submit">Apply</button>
+       
+    </div>
+
+
+</form>

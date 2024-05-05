@@ -1,0 +1,35 @@
+@model List<Projem.Models.KullaniciSifre>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Users</title>
+</head>
+<body>
+    <h1>Users</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Adı</th>
+                <th scope="col">Soyadı</th>
+                <th scope="col">Şifre</th>
+                <th scope="col">Kayıt Tarihi</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Ad</td>
+                    <td>@user.Soyad</td>
+                    <td>@user.Sifre</td>
+                    <td>@user.KayitTarihi</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+
+</html>

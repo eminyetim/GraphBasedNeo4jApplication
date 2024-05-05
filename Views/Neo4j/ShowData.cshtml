@@ -1,0 +1,18 @@
+@model List<string>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Neo4j Nodes</title>
+</head>
+<body>
+    <h1>Neo4j Nodes</h1>
+    <ul>
+        @foreach (var nodeName in Model)
+        {
+            <li>@nodeName</li>
+        }
+        <hr>
+    </ul>
+</body>
+</html>
