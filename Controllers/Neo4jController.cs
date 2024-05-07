@@ -17,8 +17,8 @@ namespace Projem.Controllers
 
         public async Task<IActionResult> ShowData()
         {
-            var nodes = await _neo4jService.GetAllNodes();
-            return View(nodes);
+            var users = await _neo4jService.GetAllNodes();
+            return View(users);
         }
 
         public async Task<IActionResult> ShowDataNode()

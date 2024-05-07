@@ -1,18 +1,25 @@
-@model List<string>
+@model List<Projem.Models.Kullanici>
 
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Neo4j Nodes</title>
+    <title>Neo4j Nodes </title>
 </head>
+
 <body>
-    <h1>Neo4j Nodes</h1>
+    <h1>Neo4j Nodes  (@Model.Count)</h1>
     <ul>
+        <hr>
         @foreach (var nodeName in Model)
         {
-            <li>@nodeName</li>
+            
+            <li><b>Ad</b> : @nodeName.Ad</li>
+            <li><b>Soyad</b> : @nodeName.Soyad</li>
+            <hr>
         }
         <hr>
     </ul>
 </body>
+
 </html>

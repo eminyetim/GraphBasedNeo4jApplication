@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\eminy\\Projem\\Projem\\Projem.csproj": {}
+    "C:\\Users\\eminy\\Projem\\Projem\\Projem.csproj": {}
   },
   "projects": {
-    "c:\\Users\\eminy\\Projem\\Projem\\Projem.csproj": {
+    "C:\\Users\\eminy\\Projem\\Projem\\Projem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\eminy\\Projem\\Projem\\Projem.csproj",
+        "projectUniqueName": "C:\\Users\\eminy\\Projem\\Projem\\Projem.csproj",
         "projectName": "Projem",
-        "projectPath": "c:\\Users\\eminy\\Projem\\Projem\\Projem.csproj",
+        "projectPath": "C:\\Users\\eminy\\Projem\\Projem\\Projem.csproj",
         "packagesPath": "C:\\Users\\eminy\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\eminy\\Projem\\Projem\\obj\\",
+        "outputPath": "C:\\Users\\eminy\\Projem\\Projem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

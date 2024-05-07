@@ -33,3 +33,4 @@ C:\Users\eminy\Projem\projem\bin\Debug\net6.0\Neo4j.Driver.dll
 C:\Users\eminy\Projem\projem\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Users\eminy\Projem\projem\obj\Debug\net6.0\Projem.csproj.AssemblyReference.cache
 C:\Users\eminy\Projem\projem\obj\Debug\net6.0\Projem.csproj.CopyComplete
+C:\Users\eminy\Projem\Projem\obj\Debug\net6.0\Projem.sourcelink.json
